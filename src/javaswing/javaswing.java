@@ -1,6 +1,5 @@
 package javaswing;
 
-
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -12,46 +11,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class javaswing extends JFrame {
-	public javaswing() {
-		getContentPane().setLayout(null);
-		
-		JButton btnNewButton_3 = new JButton("Calcular");
-		btnNewButton_3.setBounds(165, 136, 89, 23);
-		getContentPane().add(btnNewButton_3);
-		
-		textField_4 = new JTextField();
-		textField_4.setBounds(168, 33, 86, 20);
-		getContentPane().add(textField_4);
-		textField_4.setColumns(10);
-		
-		textField_5 = new JTextField();
-		textField_5.setBounds(168, 83, 86, 20);
-		getContentPane().add(textField_5);
-		textField_5.setColumns(10);
-		
-		JLabel lblNewLabel_3 = new JLabel("Primer numero");
-		lblNewLabel_3.setBounds(42, 36, 77, 14);
-		getContentPane().add(lblNewLabel_3);
-		
-		JLabel lblNewLabel_4 = new JLabel("Segundo numero");
-		lblNewLabel_4.setBounds(30, 86, 89, 14);
-		getContentPane().add(lblNewLabel_4);
-		
-		textField_6 = new JTextField();
-		textField_6.setBounds(326, 137, 86, 20);
-		getContentPane().add(textField_6);
-		textField_6.setColumns(10);
-		
-		JLabel lblNewLabel_5 = new JLabel("Num. de iteraciones");
-		lblNewLabel_5.setBounds(328, 105, 46, 14);
-		getContentPane().add(lblNewLabel_5);
-		
-		textField_7 = new JTextField();
-		textField_7.setBounds(168, 198, 86, 20);
-		getContentPane().add(textField_7);
-		textField_7.setColumns(10);
-	}
+public class javaswing extends JFrame{
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -75,10 +35,6 @@ public class javaswing extends JFrame {
 		//DefaultListModel listModel;
 		private JTextField textField_3;
 		private JTextField textField_2;
-		private JTextField textField_4;
-		private JTextField textField_5;
-		private JTextField textField_6;
-		private JTextField textField_7;
 	/**
 	 * Create the frame.
 	 */
