@@ -17,7 +17,7 @@ Button b1,b2,b3,b4,b5,b6,b7,b8,b9;
 
 
 
-JButton Button = new JButton("Close");
+
 
 private java.awt.Button b10 = new java.awt.Button("salir");
 
