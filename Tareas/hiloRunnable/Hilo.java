@@ -13,7 +13,7 @@ public class Hilo implements Runnable
 	public void run()
 	{
 		
-		for(int i=1;i<8;i++)
+		for(int i=1;i<=8;i++)
 		{
 			if(nombre.equalsIgnoreCase("Hilo 1"))
 			{
